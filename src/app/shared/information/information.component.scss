@@ -1,0 +1,72 @@
+.main {
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.image-info {
+    text-align: center;
+    margin-bottom: -10%;
+
+    img {
+        position: relative;
+        top: -35%;
+        max-width: 40%;
+        border-radius: 12px;
+
+    }
+}
+
+.title-info {
+    text-align: center;
+
+    h5 {
+        opacity: .5;
+    }
+}
+
+.icons-info {
+    a {
+        i {
+            cursor: pointer;
+            font-size: 25px;
+        }
+    }
+}
+
+.contact-sec {
+    width: 97%;
+    background-color: #f2f5f9;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 20px;
+
+    div {
+        .icon-info {
+            margin: 0 20px;
+
+
+        }
+    }
+
+    h5 {
+        margin: 1px;
+    }
+
+    a {
+        margin: -9px;
+        cursor: pointer;
+    }
+
+    hr {
+        width: inherit;
+    }
+
+    .btn-contain {
+        text-align: center;
+    }
+
+    button {
+        background-color: #fe9419;
+        border-radius: 25px;
+    }
+}

@@ -1,0 +1,48 @@
+<div class="main">
+    <div class="row">
+        <div class="col-md-12 title-info py-3">
+            <h2>Mohamed Taha</h2>
+            <p>Front-End Developer</p>
+        </div>
+    </div>
+    <div class="icons-info row justify-content-center">
+        <a class="col-2"
+            (click)="goToLink('https://web.facebook.com/people/MohaMmed-TaHa/pfbid0ZFfZQvcxgyQCwJKR5B4VJyqoT6q9mjnGEE3oNSbtyYfNaxsYqCLMWqGRzgFiNLP9l/?mibextid=LQQJ4d')">
+            <i class="bi bi-facebook" style="color: #0077b5;"></i></a>
+        <a class="col-2" (click)="goToLink('https://wa.me/+201118004264')"> <i class="bi bi-whatsapp"
+                style="color: #3fbe4f;"></i></a>
+        <a class="col-2" (click)="goToLink('https://github.com/mohamedTaha12')"> <i class="bi bi-github"
+                style="color: black;"></i></a>
+        <a class="col-2" (click)="goToLink('https://www.linkedin.com/in/mohamed-taha-7b480926b')"> <i
+                class="bi bi-linkedin" style="color: #0b63bd;"></i></a>
+    </div>
+    <div class="row contact-sec">
+        <div class="col-md-8 d-flex align-items-center">
+            <div class="icon-info"> <i style="color: #ef2e0c;font-size: 23px;" class="bi bi-phone"></i> </div>
+            <div>
+                <h5>Phone</h5>
+                <a href="tel:{{+201118004264}}"> +201118004264 </a>
+            </div>
+        </div>
+        <hr>
+        <div class="col-md-8 d-flex align-items-center">
+            <div class="icon-info"> <i style="color: #ef2e0c;font-size: 23px;" class="bi bi-envelope-open"></i> </div>
+            <div>
+                <h5>Email</h5>
+                <a (click)="goToLink('mt468540@gmail.com')">mt468540@gmail.com</a>
+            </div>
+        </div>
+        <hr>
+        <div class="col-md-8 d-flex align-items-center">
+            <div class="icon-info"><i style="color: #ef2e0c;font-size: 23px;" class="bi bi-geo-alt"></i> </div>
+            <div>
+                <h5>Location</h5>
+                <span>maadi, cairo</span>
+            </div>
+        </div>
+        <hr>
+        <div class="col-md-12 btn-contain">
+            <button class="btn" (click)="openCV()">Veiw my CV</button>
+        </div>
+    </div>
+</div>

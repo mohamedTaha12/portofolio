@@ -1,0 +1,31 @@
+.container {
+    background-color: white;
+}
+
+.title {
+    hr {
+        margin: auto;
+        color: #f56f4a !important;
+        width: 50%;
+    }
+}
+
+.phone {
+    background-color: #ffeed9;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.email {
+    background-color: #f2f7fc;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.sending-content {
+    background-color: #f2f7fc;
+    border-radius: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler my-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item btn" (click)="home()">
+                    <a class="nav-link"><i style="color: #fe9419;" class="bi bi-house-door m-1"></i>Home</a>
+                </li>
+                <li class="nav-item btn" (click)="resume()">
+                    <a class="nav-link"><i style="color: #fe9419;"
+                            class="bi bi-file-earmark-bar-graph m-1"></i>Resume</a>
+                </li>
+                <li class="nav-item btn" (click)="work()">
+                    <a class="nav-link"><i style="color: #fe9419;" class="bi bi-briefcase m-1"></i>Work</a>
+                </li>
+                <li class="nav-item btn" (click)="contactUs()">
+                    <a class="nav-link"><i style="color: #fe9419;" class="bi bi-person-lines-fill m-1"></i>Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
